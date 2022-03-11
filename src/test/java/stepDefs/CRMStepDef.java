@@ -29,6 +29,7 @@ public class CRMStepDef {
 	@Before(value="@SmokeTest", order=2)
 	public void setupDSmoke() {
 		System.out.println("DB for SmokeTest");
+		System.out.println("DB for SmokeTest done by Tester2");
 	}
 	
 	

@@ -44,6 +44,7 @@ public class CRMStepDef {
 	@When("User create a new contact")
 	public void user_create_a_new_contact() {
 		System.out.println("User create a new contact");
+		System.out.println("Added by Tester1.......")
 	}
 
 	@When("User view a contact")
